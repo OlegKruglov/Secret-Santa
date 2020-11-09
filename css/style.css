@@ -1,0 +1,23 @@
+:root {
+    --santa-red: rgb(245, 69, 69);
+    --santa-red-alpha: rgb(75, 26, 26);
+    --santa-green: rgb(95, 235, 235);
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+
+#title{
+    background-color: var(--santa-red);
+
+}
+.navbar-toggler-icon:hover{
+    color: white;
+}
