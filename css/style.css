@@ -16,8 +16,85 @@
 
 #title{
     background-color: var(--santa-red);
-
+    padding: 2 rem 10 rem;
+    color: white;
 }
 .navbar-toggler-icon:hover{
     color: white;
 }
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.navbar{
+    padding-bottom:4.5rem ;
+    width: auto;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding:0 1rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.title-image{
+    width:55%;
+    transform: rotate(10deg);
+}
+.download-btn{
+    margin: 5%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: snow;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.feature-box h3{
+    font-family: 'Montserrat';
+}
+.feature-box p{
+    color: violet;
+}
+#features i{
+    font-size: 3rem;
+    color: red;
+    margin-bottom: 1rem;
+}
+.feature-box i:hover{
+    transition-duration: 0.3s;
+    color: green;
+}
+#testmonials{
+    background-color: var red;
+    color: red;
+    text-align: center;
+}
+#testmonials h2{
+    font-family:'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testmonials img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+footer i{
+    font-size: 100px;
+}
+
+@media(max-width: 956px){
+    #title{
+        padding:0;
+        text-align: center;
+    }
+}
+
